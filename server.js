@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "http://10.0.0.106:5173",  // URL do front-end
+    origin: "https://ruanpablo-777.github.io/chat-frontend/",  // URL do front-end
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],
     credentials: true
